@@ -1,11 +1,13 @@
 #IPv6
 > Playing with IPv6 for fun and profit<br />
-> Inspired by [@FernandoGont](https://twitter.com/FernandoGont), [@fegoffinet](https://twitter.com/fegoffinet) and [@bortzmeyer](https://twitter.com/bortzmeyer) 
+> Inspired by [@FernandoGont](https://twitter.com/FernandoGont), [@fegoffinet](https://twitter.com/fegoffinet) and [@bortzmeyer](https://twitter.com/bortzmeyer)<br />
+> I have also passed the IPv6 Hurrican Electric Certifications with the sage level, it was very fun and educational, I recommend it : https://ipv6.he.net/certification/
 
 
 * [RFCs](https://github.com/zbetcheckin/IPv6/blob/master/README.md#rfcs)<br />
 * [IPv4/IPv6 Comparison](https://github.com/zbetcheckin/IPv6/blob/master/README.md#ipv4ipv6-comparison)<br />
 * [IPv6 Specifications](https://github.com/zbetcheckin/IPv6/blob/master/README.md#ipv6-specifications)<br />
+* [IPv6 Certifications](https://github.com/zbetcheckin/IPv6/blob/master/README.md#ipv6-certifications-mortar_board)<br />
 * [Cheat sheets](https://github.com/zbetcheckin/IPv6/blob/master/README.md#cheat-sheets)<br />
 * [Tools](https://github.com/zbetcheckin/IPv6/blob/master/README.md#tools-wrench)<br />
 * [IPv6 basic network commands](https://github.com/zbetcheckin/IPv6/blob/master/README.md#ipv6-basic-network-commands)<br />
@@ -91,6 +93,17 @@ requests special handling by the IPv6 routers
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Subnetonline | http://www.subnetonline.com/pages/subnet-calculators.php
+
+
+
+<br />
+
+
+
+## IPv6 Certifications :mortar_board:
+Name | URL 
+------------------------------------ | ---------------------------------------------
+Hurricane Electric | https://ipv6.he.net/certification/
 
 
 
