@@ -50,7 +50,7 @@ RFCs related to IPv6 | http://ipv6now.com.au/RFC.php
 Address | 32 bits | 128 bits
 Neighbor Discovery | ARP | NDP, ICMPv6
 Auto configuration |  ICMP & DHCP | ICMPv6 & DHCPv6 (optional) 
-Packet transmition | Broadcast | Multicast
+Packet transmition | Broadcast / Multicast | Multicast
 ICMP | ICMPv4 | ICMPv6
 Fragmentation | Both in hosts and routers | Only in hosts
 Local network | 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 | ULA fc00::/7, fd00::/8
