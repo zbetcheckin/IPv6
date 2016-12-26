@@ -138,23 +138,26 @@ Online utilities | https://centralops.net/
 ## IPv6 basic network commands
 Action | Command
 ------------------------------------ | ---------------------------------------------
-IP show | `$ ip -6 addr` or `$ sudo ifconfig | grep inet6`
-Display neighbor cache | `$ ip -6 neigh show`
-Flush neighbor cache | `$ ip -6 neigh flush`
-Routes | `$ ip -6 route` or `$ netstat -rnA inet6` or `$ sudo route -A inet6`
-Connections | `$ netstat -A inet6`
-Domain ping | `$ ping6 -I eth0 DOMAIN`
 Address ping | `$ ping6 -I eth0 IPv6ADDR`
-Traceroute | `$ traceroute6 DOMAIN`
-EH-enabled traceroute | `$ sudo ./path6 -v -u 72 -d DOMAIN`
-Trace the path to discover the MTU | `$ tracepath6 DOMAIN`
+Connections | `$ netstat -A inet6`
+Determining address type | `$ addr6 -a IPv6ADDR`
+Display neighbor cache | `$ ip -6 neigh show`
+DNS lookup | `$ host DOMAIN`
+Domain ping | `$ ping6 -I eth0 DOMAIN`
+Flush neighbor cache | `$ ip -6 neigh flush`
+Identifying the Flow ID generation policy | `$ sudo ./flow6 -i eth0 -v --flow-label-policy -d IPv6ADDR`
+IP show | `$ ip -6 addr` or `$ sudo ifconfig | grep inet6`
+IPtables | `$ sudo ip6tables -L -v --line-numbers`
+NETCAT | Listen `$ nc6 -lp 12345 -v -e "/bin/bash"` & Connect `$ nc6 localhost 12345`
+Numerical address in URL needs brackets | `http://[IPv6]/` or with a port `http://[IPv6]/:80`
+Routes | `$ ip -6 route` or `$ netstat -rnA inet6` or `$ sudo route -A inet6`
+SSH | `$ ssh -6 user@IPv6ADDR%eth0`
 TCPDUMP | `$ sudo tcpdump -i eth0 -evv ip6 or proto ipv6`
 TELNET | `$ telnet IPv6ADDR PORT`
-NETCAT | Listen `$ nc6 -lp 12345 -v -e "/bin/bash"` & Connect `$ nc6 localhost 12345`
-SSH | `$ ssh -6 user@IPv6ADDR%eth0`
-DNS lookup | `$ host DOMAIN`
-Determining address type | `$ addr6 -a IPv6ADDR`
-Identifying the Flow ID generation policy | `$ sudo ./flow6 -i eth0 -v --flow-label-policy -d IPv6ADDR`
+Traceroute | `$ traceroute6 DOMAIN`
+Traceroute EH-enabled | `$ sudo ./path6 -v -u 72 -d DOMAIN`
+Traceroute with MTR | `$ mtr -6 DOMAIN`
+Trace the path to discover the MTU | `$ tracepath6 DOMAIN`
 
 
 
