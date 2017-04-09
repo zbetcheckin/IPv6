@@ -1,4 +1,4 @@
-#IPv6
+# IPv6
 > Playing with IPv6 for fun and profit<br />
 > Inspired by [@FernandoGont](https://twitter.com/FernandoGont), [@fegoffinet](https://twitter.com/fegoffinet) and [@bortzmeyer](https://twitter.com/bortzmeyer)<br />
 > I have also passed the IPv6 Hurrican Electric Certifications with the sage level, it was very fun and educational, I recommend it : https://ipv6.he.net/certification/
@@ -24,11 +24,6 @@
 * [Sources](https://github.com/zbetcheckin/IPv6/blob/master/README.md#sources-information_source)<br />
 
 
-
-<br />
-
-
-
 ## RFCs
 Name | URL 
 ------------------------------------ | ---------------------------------------------
@@ -39,11 +34,6 @@ Rogue IPv6 Router Advertisement | https://www.rfc-editor.org/rfc/rfc6104.txt
 Neighbor Discovery Problems | https://www.rfc-editor.org/rfc/rfc6583.txt
 Network Reconnaissance in IPv6 | https://www.rfc-editor.org/rfc/rfc7707.txt
 RFCs related to IPv6 | http://ipv6now.com.au/RFC.php
-
-
-
-<br />
-
 
 
 ## IPv4/IPv6 Comparison
@@ -60,11 +50,6 @@ Local network | 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 | ULA fc00::/7, fd00::
  | Next Header | Protocol
  | Hop Limit | Time to Live
  | 127.0.0.1 | ::1
-
-
-
-<br /> 
-
 
 
 ## IPv6 Specifications
@@ -88,16 +73,10 @@ Global unicast | everything else | everything else
 requests special handling by the IPv6 routers
 
 
-
 #### Subnet calculator
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Subnetonline | http://www.subnetonline.com/pages/subnet-calculators.php
-
-
-
-<br />
-
 
 
 ## IPv6 Certifications :mortar_board:
@@ -106,19 +85,9 @@ Name | URL
 Hurricane Electric | https://ipv6.he.net/certification/
 
 
-
-<br />
-
-
-
 ## Cheat sheets
 [Cheat sheet estoile](https://github.com/zbetcheckin/IPv6/blob/master/cheat_sheet_estoile.pdf)<br />
 [Cheat sheet roesen](https://github.com/zbetcheckin/IPv6/blob/master/cheat_sheet_roesen.pdf)<br />
-
-
-
-<br />
-
 
 
 ## Tools :wrench:
@@ -140,12 +109,6 @@ IPv6 addresses calculator | https://packages.debian.org/jessie/ipv6calc
 Online scanner | http://www.ipv6scanner.com/
 Online scanner | http://www.subnetonline.com/pages/ipv6-network-tools/online-ipv6-port-scanner.php
 Online utilities | https://centralops.net/
-
-
-
-
-<br />
-
 
 
 ## IPv6 basic network commands
@@ -173,11 +136,6 @@ Traceroute with MTR | `$ mtr -6 DOMAIN`
 Trace the path to discover the MTU | `$ tracepath6 DOMAIN`
 
 
-
-<br />
-
-
-
 ## IPv6 network discovery
 Action | Command
 ------------------------------------ | ---------------------------------------------
@@ -200,11 +158,6 @@ Address scanning | `$ sudo ./scan6 -v -i eth0 -­d IPv6ADDR/64`
 Metasploit | `msf > search type:auxiliary ipv6`
 
 
-
-<br />
-
-
-
 ## DNS - AS
 Action | Command
 ------------------------------------ | ---------------------------------------------
@@ -220,10 +173,6 @@ AS-related info | `$ sudo script6 get­-as IPv6ADDR`
 AS-related info | `$ sudo script6 get­-asn IPv6ADDR`
 Google DNS | IPv4 : 8.8.4.4, 8.8.8.8<br /> IPv6 : 2001:4860:4860::8888, 2001:4860:4860::8844
 IPv6 rDNS Nameservers | http://bgp.he.net/ipv6-progress-report.cgi?section=ipv6_rdns
-
-
-<br />
-
 
 
 ## Internet access test :construction_worker:
@@ -261,11 +210,6 @@ Firewall tester | http://www6.chappell-family.co.uk/ (https://github.com/timsgit
 Hurricane Electric | https://ipv6.he.net/certification/
 
 
-
-<br />
-
-
-
 ## Search for IPv6 addresses & domains :dart:
 Name | URL
 ------------------------------------ | ---------------------------------------------
@@ -280,11 +224,6 @@ Recent websites added | http://sixy.ch/
 Shodan | https://www.shodan.io/
 IPv6 map's project | https://mrlooquer.com/
 Dual Stack Chart | http://ipv6eyechart.ripe.net/
-
-
-
-<br />
-
 
 
 ## Investigation on IPv6 addresses & domains :mag:
@@ -308,21 +247,11 @@ extract_networks6.sh | https://github.com/vanhauser-thc/thc-ipv6/blob/master/ext
 `$ cat file.txt | addr6 -i -s`
 
 
-
-<br />
-
-
-
 ## Scapy
 
 [@antoniosatlasis](https://twitter.com/antoniosatlasis) did some nice scapy scripts during this workshop (starting on page 184) : <br />
 [https://www.ernw.de/download/Advanced Attack Techniques against IPv6 Networks-final.pdf](https://www.ernw.de/download/Advanced%20Attack%20Techniques%20against%20IPv6%20Networks-final.pdf)<br />
 To be continued
-
-
-
-<br />
-
 
 
 ## IPv6 hosting :office:
@@ -333,22 +262,11 @@ Hosting providers | http://www.fix6.net/ipv6-webhosting/
 VPS | https://www.sixxs.net/wiki/IPv6_Enabled_VPS_Hosting
 
 
-
-<br />
-
-
-
 ## Misc
 Name | URL
 ------------------------------------ | ---------------------------------------------
 Wireshark | https://wiki.wireshark.org/IPv6
 IPv6 attack detector | https://github.com/mzweilin/ipv6-attack-detector/ & https://www.honeynet.org/node/944
-
-
-
-<br />  
-
-
 
 ## Vulnerabilities and attacks :unlock:
 
@@ -392,11 +310,6 @@ Most of the following vulnerabilities and attacks come from [@FernandoGont](http
 * Advertise a malicious MTU
 * Disable an Existing Router
 * BlackHole
-
-
-
-<br />
-
 
 
 ### Denial of Services :trollface:
@@ -473,11 +386,6 @@ Case number :<br />
 7 : large hop-by-hop header filled with unknown options (no router alert)<br />
 
 
-
-<br />
-
-
-
 ### Audit & Bypass
 
 
@@ -489,10 +397,6 @@ Performs various access control & bypass attempts to check implementations.<br /
 #### IPv6 implementation test
 Tests various IPv6 specific options for their implementations. It can also be used to test firewalls.<br />
 `$ sudo ./implementation6 eth0 TARGETIPv6ADDR`
-
-
-<br />
-
 
 
 ### MITM
@@ -507,10 +411,6 @@ Announce yourself as a router and become the default router.<br />
 This redirect all local traffic to you by answering falsely to Neighbor Solitication requests.<br />
 `$ sudo ./na6 -i eth0 --accept-target TARGETIPv6ADDR --listen -E 11::33:44:55:66 --solicited --override --verbose`<br />
 `$ sudo ./parasite6 -l eth0`<br />
-
-
-<br />
-
 
 
 ### Fragmentations
@@ -534,11 +434,6 @@ Assess fragment reassembly policy.<br />
 #### Fragment firewall and implementation tests
 The tools fragmentation6 can performs a fragment firewall and implementation checks.<br />
 `$ sudo ./fragmentation6 eth0 TARGETIPv6ADDR`
-
-
-
-<br />
-
 
 
 ### Others
@@ -570,11 +465,6 @@ Not tested yet. Related RFC : https://tools.ietf.org/html/rfc6666<br />
 TO BE CONTINUED
 
 
-
-<br />
-
-
-
 ## Statistics :chart_with_upwards_trend:
 Name | URL 
 ------------------------------------ | ---------------------------------------------
@@ -585,11 +475,6 @@ Cisco | http://6lab.cisco.com/stats/
 World IPv6 Launch | http://www.worldipv6launch.org/measurements/
 M.R.P. | http://www.mrp.net/ipv6_survey/
 Top Alexa by country | https://www.vyncke.org/ipv6status/
-
-
-
-<br />
-
 
 
 ## Sources :information_source:
