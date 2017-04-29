@@ -77,12 +77,14 @@ requests special handling by the IPv6 routers
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Subnetonline | http://www.subnetonline.com/pages/subnet-calculators.php
-
+Subnet Calculator in Python | https://github.com/aipi/IPv6-subnet-calculator
 
 ## IPv6 Certifications :mortar_board:
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Hurricane Electric | https://ipv6.he.net/certification/
+NIC.br (PT-BR) | http://saladeaula.nic.br/courses/course-v1:NIC.br+IPV6-001+T001/about
+IPv6 Laboratory (PT-BR) | http://ipv6.br/pagina/livro-ipv6/
 
 
 ## Cheat sheets
