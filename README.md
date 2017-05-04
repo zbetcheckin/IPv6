@@ -37,7 +37,7 @@ RFCs related to IPv6 | http://ipv6now.com.au/RFC.php
 
 
 ## IPv4/IPv6 Comparison
- | IPv4 | IPv6
+Setting | IPv4 | IPv6
 ------------------------------------ |------------------------------------ | ---------------------------------------------
 Address | 32 bits | 128 bits
 Neighbor Discovery | ARP | NDP, ICMPv6
@@ -46,10 +46,10 @@ Packet transmition | Broadcast / Multicast | Multicast
 ICMP | ICMPv4 | ICMPv6
 Fragmentation | Both in hosts and routers | Only in hosts
 Local network | 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 | ULA fc00::/7, fd00::/8
- | Options | Extensions
- | Next Header | Protocol
- | Hop Limit | Time to Live
- | 127.0.0.1 | ::1
+Headers Comparison 1 | Options | Extensions
+Headers Comparison 2 | Next Header | Protocol
+Headers Comparison 3 | Hop Limit | Time to Live
+Loopback address | 127.0.0.1 | ::1
 
 
 ## IPv6 Specifications
@@ -58,9 +58,10 @@ Address type | Binary prefix | IPv6 notation
 Unspecified | 00...0 (128 bits) | ::/128
 Loopback | 00...1 (128 bits) | ::1/128
 Multicast | 11111111 | ff00::/8
-Link-local unicast | 1111111010 | fe80::/10
+Link-local unicast | 1111111010 | fe80::/64
 Site-local unicast | 1111111011 | fec0::/10
 Global unicast | everything else | everything else
+Unique local address (ULA) | 1111 110L | FC00::7 
 
 * Each computer get a public IP
 * Local automatic addressing
@@ -77,12 +78,14 @@ requests special handling by the IPv6 routers
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Subnetonline | http://www.subnetonline.com/pages/subnet-calculators.php
-
+Subnet Calculator in Python | https://github.com/aipi/IPv6-subnet-calculator
 
 ## IPv6 Certifications :mortar_board:
 Name | URL 
 ------------------------------------ | ---------------------------------------------
 Hurricane Electric | https://ipv6.he.net/certification/
+NIC.br (PT-BR) | http://saladeaula.nic.br/courses/course-v1:NIC.br+IPV6-001+T001/about
+IPv6 Laboratory (PT-BR) | http://ipv6.br/pagina/livro-ipv6/
 
 
 ## Cheat sheets
