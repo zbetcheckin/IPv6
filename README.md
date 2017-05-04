@@ -213,14 +213,14 @@ Firewall tester | http://www6.chappell-family.co.uk/ (https://github.com/timsgit
 Hurricane Electric | https://ipv6.he.net/certification/
 
 
-## Search for IPv6 addresses & domains :dart:
+## Search for IPv6 addresses & domains :dart:
 Name | URL
 ------------------------------------ | ---------------------------------------------
 BGP Toolkit | http://bgp.he.net/ :+1:
 BGP IPv6 progress report | http://bgp.he.net/ipv6-progress-report.cgi
 DNS | A domain analysis could reveal IPv6 addresses (AAAA & PTR records)
 SSL | An SSL analysis could reveal IPv6 addresses too
-IPv4 / IPv6 | Search for dual stacked host
+IPv4 - IPv6 | Search for dual stacked host
 Google dorks | site:ipv6.*
 Recent websites validated | http://ipv6-test.com/validate.php
 Recent websites added | http://sixy.ch/
