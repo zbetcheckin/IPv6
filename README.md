@@ -480,7 +480,7 @@ M.R.P. | http://www.mrp.net/ipv6_survey/
 Top Alexa by country | https://www.vyncke.org/ipv6status/
 
 
-## Sources :information_source:
+## Sources :information_source:
 * https://www.iana.org/numbers
 * https://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml
 * https://www.iana.org/assignments/ipv6-unicast-address-assignments/ipv6-unicast-address-assignments.xhtml
