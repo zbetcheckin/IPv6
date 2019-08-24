@@ -48,7 +48,7 @@ Fragmentation | Both in hosts and routers | Only in hosts
 Local network | 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 | ULA fc00::/7, fd00::/8
 Headers Comparison 1 | Options | Extensions
 Headers Comparison 2 | Next Header | Protocol
-Headers Comparison 3 | Hop Limit | Time to Live
+Headers Comparison 3 | Time to Live | Hop Limit
 Loopback address | 127.0.0.1 | ::1
 
 
